@@ -1,0 +1,42 @@
+#intro {
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #29323C;
+}
+
+.content {
+    padding: 50px;
+    font-size: 3rem;
+    position: relative;
+    left: 10vh;
+    /* border: 2px solid black; */
+}
+
+.content > h1 {
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.content > h1 > span {
+    color: crimson;
+}
+
+.content > a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid crimson;
+    color: white;
+    letter-spacing: .3rem;
+    padding: 10px 30px;
+    border-radius: 14% 0%;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+.content a:hover {
+    background-color: crimson;
+    color: white;
+}

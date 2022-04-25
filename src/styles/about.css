@@ -1,0 +1,82 @@
+#about {
+    /* border: 2px solid black; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.col-left {
+    /* border: 2px solid rgb(207, 30, 30); */
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-right {
+    /* border: 2px solid rgb(18, 182, 38); */
+    width: 70rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    padding-top: 35vh;
+}
+
+.col-right > h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin-top: 30px;
+}
+.col-right > p {
+    margin-bottom: 50px;
+}
+/* .about-img img {
+    border: 5px solid white;
+    box-shadow: -5px 5px 0 crimson;
+    
+} */
+
+img {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.col-left .about-img{
+    position: relative;
+    /* border: 10px solid white; */
+}
+
+.col-left .about-img::after{
+    content: " ";
+    position: absolute;
+    left: -25px;
+    top: 30px;
+    height: 95%;
+    width: 98%;
+    border: 5px solid red;
+    z-index: -1;
+}
+
+.col-right> a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 10px 20px;
+    font-size: 2rem;
+    transition: .35s;
+    border-radius: 2px;
+}
+
+.col-right > a:hover{
+    color: white;
+    background-color: crimson;
+}
