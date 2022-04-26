@@ -21,11 +21,11 @@ function Navbar() {
         <div className='heading'>
             <a href='#'><h2><span>N</span>ishkarsh <span>G</span>upta</h2></a>
         </div>
-        <div className='bar'>
+        {/* <div className='bar'>
           <a href=''>
             <span className='hamburger'>{navbarIcon}</span>
           </a>
-        </div>
+        </div> */}
     </div>
   )
 }
