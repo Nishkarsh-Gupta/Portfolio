@@ -11,7 +11,7 @@ const Intro = () => {
             <h1>Hello, </h1>
             <h1>My name is </h1>
             <h1><span>Nishkarsh Gupta.</span></h1>
-            <a href='' type='button'>About Me</a>
+            <a href='#about' type='button'>About Me</a>
         </div>
     </div>
   )
