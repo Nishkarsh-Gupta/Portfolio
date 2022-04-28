@@ -22,7 +22,7 @@ const About = () => {
                 I also like to make projects related to Web Development.
 
             </p>
-            <a href='' type='button'>Resume</a>
+            <a href='https://drive.google.com/file/d/1BIZnyKVx4-krOS9f9d_T55wQMG8BYqZc/view?usp=sharing' type='button' target="_blank">Resume</a>
       </div>
     </div>
   )
