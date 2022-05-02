@@ -7,7 +7,7 @@ import phone from "../images/phone-icon.png"
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact'>
         <div className='heading1'>
             <h1 className='title'>CONTACT <span>INFO</span></h1>
         </div>
