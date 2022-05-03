@@ -9,7 +9,7 @@ const About = () => {
     <div id='about'>
       <div className='col-left'>
         <div className='about-img'>
-            <img src={image} alt='Nishkarsh'></img>
+            {/* <img src={image} alt='Nishkarsh'></img> */}
         </div>
       </div>
       <div className='col-right'>

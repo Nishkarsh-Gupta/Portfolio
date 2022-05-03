@@ -28,6 +28,10 @@ span {
     /* border: 2px solid white; */
 }
 
+.hamburger {
+    cursor: pointer;
+}
+
 .change {
     height: 100vh;
 }

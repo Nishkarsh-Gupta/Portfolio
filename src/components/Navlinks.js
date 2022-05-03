@@ -1,15 +1,25 @@
 import React from 'react'
 import "../styles/navlinks.css"
 
-const Navlinks = () => {
+const Navlinks = (props) => {
   return (
     <div className='nav-links'>
       <ul>
-          <li><a href='#intro' data-after = "Home">Home</a></li>
-          <li><a href='#about' data-after = "About Me">About Me</a></li>
-          <li><a href='#skills' data-after = "Skills">Skills</a></li>
-          <li><a href='#project' data-after = "Projects">Projects</a></li>
-          <li><a href='#contact' data-after = "Contact">Contact</a></li>
+          <li onClick={() => props.isOpen && props.closeMenu()}>
+            <a href='#intro' data-after = "Home">Home</a>
+          </li>
+          <li onClick={() => props.isOpen && props.closeMenu()}>
+            <a href='#about' data-after = "About Me">About Me</a>
+          </li>
+          <li onClick={() => props.isOpen && props.closeMenu()}>
+            <a href='#skills' data-after = "Skills">Skills</a>
+          </li>
+          <li onClick={() => props.isOpen && props.closeMenu()}>
+            <a href='#project' data-after = "Projects">Projects</a>
+          </li>
+          <li onClick={() => props.isOpen && props.closeMenu()}>
+            <a href='#contact' data-after = "Contact">Contact</a>
+          </li>
       </ul>
     </div>
     // <div className="nav-list">
