@@ -1,9 +1,14 @@
 import React from 'react'
 import "../styles/navlinks.css"
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navlinks = (props) => {
   return (
     <div className='nav-links'>
+      <GiHamburgerMenu className='close-btn'
+        onClick={() => props.isOpen && props.closeMenu()}
+        size="30px" color="white"
+      />
       <ul>
           <li onClick={() => props.isOpen && props.closeMenu()}>
             <a href='#intro' data-after = "Home">Home</a>
